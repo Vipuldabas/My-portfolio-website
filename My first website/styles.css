@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: palegoldenrod;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    background: black;
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: red;
+}
+
+
+}
+
+.detail{
+    
+    margin-left: 8%;
+    margin-right: 15%;
+}
+
+.detail{
+    font-size: 35px;
+    color: black;
+    margin-bottom: 30px;
+}
+
+span{
+    color: black;
+}
+
+.detail p{
+    color: cornflowerblue;
+    line-height: 50px;
+}
+
+.fa-github{
+    font-size: 60px;
+    color: black;
+    
+}
+
+.fa-brands{
+    font-size: 60px;
+    color: blue;
+}
+
+.images{
+    width: 45%;
+    height: 65%;
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+}
+
